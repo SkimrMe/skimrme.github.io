@@ -29,10 +29,14 @@
 网站截图： 献丑了！！！<br>
 
 更新的内容板块：<br>
-<img width="628" alt="Snipaste_2024-02-11_16-11-37" src="https://github.com/SkimrMe/skimrme.github.io/assets/158807652/1ef91b86-a5eb-491f-be15-36a7bf912335">
-<img width="628" alt="Snipaste_2024-02-11_16-15-01" src="https://github.com/SkimrMe/skimrme.github.io/assets/158807652/9bcebc17-8d0e-4281-a95e-5c8884c06306">
-<img width="628" alt="Snipaste_2024-02-11_16-16-00" src="https://github.com/SkimrMe/skimrme.github.io/assets/158807652/138c8dd5-9640-4d0e-a763-0c8f5cab0288">
-
+<img width="1280" alt="1" src="https://github.com/SkimrMe/skimrme.github.io/assets/158807652/f92d7e95-a68f-409f-b336-dc020d535f4d">
+<img width="1280" alt="2" src="https://github.com/SkimrMe/skimrme.github.io/assets/158807652/baf4b679-2ff6-4ae3-ba11-68487c011a2f">
+<img width="1280" alt="3" src="https://github.com/SkimrMe/skimrme.github.io/assets/158807652/05abcf80-684b-46b1-a14a-2d83563fc91e">
+<img width="1280" alt="4" src="https://github.com/SkimrMe/skimrme.github.io/assets/158807652/8127b435-1891-4894-9f98-7648789fe8c6">
+<img width="1280" alt="5" src="https://github.com/SkimrMe/skimrme.github.io/assets/158807652/68309ae2-8ca1-4d1c-995d-27e2504fdd63">
+<img width="1280" alt="6" src="https://github.com/SkimrMe/skimrme.github.io/assets/158807652/5ace6d62-0d01-4551-8f7d-3771700b13ed">
+<img width="1256" alt="7" src="https://github.com/SkimrMe/skimrme.github.io/assets/158807652/1d9df7c3-5b46-42df-9bcd-bc4ecc99e281">
+<img width="1280" alt="8" src="https://github.com/SkimrMe/skimrme.github.io/assets/158807652/98c45333-6df3-4173-9700-1c658f0fe93d">
 
 
 新增网页logo：<br>
@@ -42,15 +46,6 @@
 
 logo图片：<br>
 <img width="178" alt="logo" src="https://github.com/SkimrMe/skimrme.github.io/assets/158807652/47fbbcd4-c86b-4a20-8304-ed425bf398ca">
-
-
-
-
-
-
-
-
-
 
 
 <h2> skimrme.github.io  （v1.2） </h2>
