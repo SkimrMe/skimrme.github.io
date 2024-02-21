@@ -36,7 +36,8 @@
 
 
 新增网页logo：<br>
-<img width="175" alt="新增网页logo" src="https://github.com/SkimrMe/skimrme.github.io/assets/158807652/531b6970-e578-4794-9aaf-53840916a1be">
+<img width="1070" alt="新增网页logo" src="https://github.com/SkimrMe/skimrme.github.io/assets/158807652/4310a835-377b-40fb-976f-33de9cff98b0">
+
 
 
 logo图片：<br>
