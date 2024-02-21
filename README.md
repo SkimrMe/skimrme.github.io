@@ -1,4 +1,4 @@
-<img width="1280" alt="5" src="https://github.com/SkimrMe/skimrme.github.io/assets/158807652/bb844d6e-bf6a-4b38-977f-8353b98a615a"># <h1> 目前情况或者说明 </h1> <br>
+# <h1> 目前情况或者说明 </h1> <br>
 <h2> skimrme.github.io  （v1.7） </h2>
 还没想好
 <br>
