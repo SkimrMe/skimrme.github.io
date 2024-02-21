@@ -77,23 +77,28 @@ logo图片：<br>
 献丑了！！！
 
 主页: <br>
-<img width="503" alt="Snipaste_2024-02-08_13-57-35" src="https://github.com/SkimrMe/skimrme.github.io/assets/158807652/d9057570-b6d8-40e3-a146-28bf90f5fc85">
+
+
 
 
 关于小屋：<br>
-<img width="238" alt="Snipaste_2024-02-08_13-58-23" src="https://github.com/SkimrMe/skimrme.github.io/assets/158807652/d1b124f3-542a-4299-abdd-310dcbae6588">
+
+
 
 
 内容板块：<br>
-<img width="923" alt="Snipaste_2024-02-08_14-00-24" src="https://github.com/SkimrMe/skimrme.github.io/assets/158807652/1f6ca945-7b68-4ffd-b042-42ee0b3447cf">
+<img width="1280" alt="内容板块" src="https://github.com/SkimrMe/skimrme.github.io/assets/158807652/2e9132c3-63ed-4e6b-a9a2-07498723be6b">
+
 
 
 涂鸦绘版：（这个版.....可能是个错别字）<br>
-<img width="291" alt="Snipaste_2024-02-08_14-00-49" src="https://github.com/SkimrMe/skimrme.github.io/assets/158807652/982c1468-1ae9-47b8-9f1f-409e866d31ed">
+<img width="1280" alt="涂鸦绘版" src="https://github.com/SkimrMe/skimrme.github.io/assets/158807652/966bb9c2-edc6-4b48-9a32-da17964c32d8">
+
 
 
 小游戏页面：<br>
-<img width="1277" alt="Snipaste_2024-02-08_14-01-19" src="https://github.com/SkimrMe/skimrme.github.io/assets/158807652/a5543e9f-6bc9-4de9-9c9c-a63cb52fe062">
+<img width="1277" alt="小游戏" src="https://github.com/SkimrMe/skimrme.github.io/assets/158807652/f6a428fa-26c3-4598-b6a2-3dc5cc5a047b">
+
 
 
 
