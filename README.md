@@ -1,4 +1,4 @@
-# <h1> 目前情况或者说明 </h1> <br>
+<img width="1280" alt="5" src="https://github.com/SkimrMe/skimrme.github.io/assets/158807652/bb844d6e-bf6a-4b38-977f-8353b98a615a"># <h1> 目前情况或者说明 </h1> <br>
 <h2> skimrme.github.io  （v1.7） </h2>
 还没想好
 <br>
@@ -35,7 +35,7 @@
 <img width="1280" alt="4" src="https://github.com/SkimrMe/skimrme.github.io/assets/158807652/8127b435-1891-4894-9f98-7648789fe8c6">
 <img width="1280" alt="5" src="https://github.com/SkimrMe/skimrme.github.io/assets/158807652/68309ae2-8ca1-4d1c-995d-27e2504fdd63">
 <img width="1280" alt="6" src="https://github.com/SkimrMe/skimrme.github.io/assets/158807652/5ace6d62-0d01-4551-8f7d-3771700b13ed">
-<img width="1256" alt="7" src="https://github.com/SkimrMe/skimrme.github.io/assets/158807652/1d9df7c3-5b46-42df-9bcd-bc4ecc99e281">
+<img width="1280" alt="5" src="https://github.com/SkimrMe/skimrme.github.io/assets/158807652/6b910ed2-1cf5-4dee-b248-2a78b76d73ef">
 <img width="1280" alt="8" src="https://github.com/SkimrMe/skimrme.github.io/assets/158807652/98c45333-6df3-4173-9700-1c658f0fe93d">
 
 
