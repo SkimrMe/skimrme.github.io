@@ -36,10 +36,12 @@
 
 
 新增网页logo：<br>
-<img width="176" alt="Snipaste_2024-02-11_16-18-57" src="https://github.com/SkimrMe/skimrme.github.io/assets/158807652/5b2ad725-5bc1-4b1d-8b27-fdceb51168d6">
+<img width="175" alt="新增网页logo" src="https://github.com/SkimrMe/skimrme.github.io/assets/158807652/531b6970-e578-4794-9aaf-53840916a1be">
+
 
 logo图片：<br>
-<img width="122" alt="Snipaste_2024-02-11_16-23-53" src="https://github.com/SkimrMe/skimrme.github.io/assets/158807652/3da97abd-97b2-4056-b437-8e2ee9c4fd17">
+<img width="178" alt="logo" src="https://github.com/SkimrMe/skimrme.github.io/assets/158807652/47fbbcd4-c86b-4a20-8304-ed425bf398ca">
+
 
 
 
