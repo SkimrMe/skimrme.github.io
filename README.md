@@ -2,6 +2,7 @@
 <h2> skimrme.github.io  （v1.7） </h2>
 还没想好
 <br>
+<h1>难绷之前把项目删了，项目介绍的图片也没了</h1>
 <h2> skimrme.github.io  （v1.6.7） </h2>
 主页新增部分内容<br>
 主页新增更新日志栏<br>
