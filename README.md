@@ -77,11 +77,13 @@ logo图片：<br>
 献丑了！！！
 
 主页: <br>
+<img width="978" alt="主页" src="https://github.com/SkimrMe/skimrme.github.io/assets/158807652/433bd0fc-98d6-42d6-b0cd-60a2b2c8977c">
 
 
 
 
 关于小屋：<br>
+<img width="1277" alt="关于小屋" src="https://github.com/SkimrMe/skimrme.github.io/assets/158807652/629dc657-aa95-48bb-829c-3c8f02d9e1cf">
 
 
 
