@@ -1,22 +1,22 @@
 # <h1> 目前情况或者说明 </h1> <br>
-<h2> skimrme.github.io  （v1.7） </h2>
+<h2> skimrme.github.io  （v0.7） </h2>
 还没想好
 <br>
 <h1>难绷之前把项目删了，项目介绍的图片也没了，已经重新找图了尽量做的和之前一样</h1>
-<h2> skimrme.github.io  （v1.6.7） </h2>
+<h2> skimrme.github.io  （v0.6.7） </h2>
 主页新增部分内容<br>
 主页新增更新日志栏<br>
-<h2> skimrme.github.io  （v1.6.6） </h2>
+<h2> skimrme.github.io  （v0.6.6） </h2>
 阿巴阿巴阿巴<br>
-<h2> skimrme.github.io  （v1.6.5） </h2>
+<h2> skimrme.github.io  （v0.6.5） </h2>
 感觉逐渐像那么回事了<br>
 <br>
-<h2> skimrme.github.io  （v1.6） </h2>
+<h2> skimrme.github.io  （v0.6） </h2>
 自认为差不多了<br>
 <br>
-<h2> skimrme.github.io  （v1.5） </h2>
+<h2> skimrme.github.io  （v0.5） </h2>
 更加完善了内容板块，调整了标题的颜色和大小，调整了简介的大小<br>
-<h2> skimrme.github.io  （v1.4） </h2>
+<h2> skimrme.github.io  （v0.4） </h2>
 名称：斯基姆小屋<br>
 网址：https://badsevers.xyz/
 
@@ -48,7 +48,7 @@ logo图片：<br>
 <img width="178" alt="logo" src="https://github.com/SkimrMe/skimrme.github.io/assets/158807652/47fbbcd4-c86b-4a20-8304-ed425bf398ca">
 
 
-<h2> skimrme.github.io  （v1.2） </h2>
+<h2> skimrme.github.io  （0.2） </h2>
 
 反正也没人在乎，就不写了
 
@@ -57,7 +57,7 @@ logo图片：<br>
 做了一些小修改，好难啊，我现在应该去学习学习怎么制作
 
 
-<h2> skimrme.github.io  （v1.0） </h2>
+<h2> skimrme.github.io  （v0.1.） </h2>
 
 名称：斯基姆小屋<br>
 网址：https://badsevers.xyz/
