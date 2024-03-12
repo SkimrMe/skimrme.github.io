@@ -48,7 +48,7 @@ logo图片：<br>
 <img width="178" alt="logo" src="https://github.com/SkimrMe/skimrme.github.io/assets/158807652/47fbbcd4-c86b-4a20-8304-ed425bf398ca">
 
 
-<h2> skimrme.github.io  （0.2） </h2>
+<h2> skimrme.github.io  （v0.2） </h2>
 
 反正也没人在乎，就不写了
 
