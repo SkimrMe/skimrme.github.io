@@ -52,7 +52,7 @@ logo图片：<br>
 
 反正也没人在乎，就不写了
 
-<h2> skimrme.github.io  （v1.1） </h2>
+<h2> skimrme.github.io  （v0.1） </h2>
 
 做了一些小修改，好难啊，我现在应该去学习学习怎么制作
 
