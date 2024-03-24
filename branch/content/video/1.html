@@ -1,0 +1,122 @@
+<!--这不是胖次比赛-->
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+<meta charset="UTF-8">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<title>这不是胖次比赛</title>  
+<style>  
+  /* 视频播放器容器样式 */  
+  .video-container {  
+    position: relative;  
+    width: 640px;  
+  }  
+  
+  /* 自定义进度条容器样式 */  
+  .custom-progress-bar {  
+    position: absolute;  
+    bottom: 10px;  
+    left: 0;  
+    width: 100%;  
+    height: 10px;  
+    background: #444;  
+    cursor: pointer;  
+  }  
+  
+  /* 自定义进度条填充样式 */  
+  .custom-progress-bar .fill {  
+    position: absolute;  
+    top: 0;  
+    left: 0;  
+    height: 100%;  
+    width: 0;  
+    background: #f00;  
+    transition: width .2s; /* 平滑过渡效果 */  
+  }  
+  
+  /* 隐藏默认的浏览器进度条 */  
+  video::-webkit-media-controls-timeline {  
+    display: none;  
+  }  
+</style>  
+</head>  
+<body>  
+
+
+<!--标题部分-->
+<h1>パンツじゃないもんレーシング（这不是胖次比赛）</h1>
+<!--简介部分-->
+此视频为转载<br>
+转载的视频链接：<a href="https://www.youtube.com/watch?v=bUrN5OXWDzU">https://www.youtube.com/watch?v=bUrN5OXWDzU</a><br>
+简介：Funny Video from Osu game<br>
+原视频链接：<a href="https://www.nicovideo.jp/watch/sm12322218">https://www.nicovideo.jp/watch/sm12322218</a><br>
+简介：ストパン音MAD<br>
+<!--简介部分-->
+<br>
+<br>
+<div class="video-container">  
+  <video id="myVideo" width="640" height="360" controls>  
+    <source src="https://vod.mfuns.net/f03964ebcff771ee804a5420848d0102/96cc73454d516a6d975d6b9d7c890d0f-fd.mp4?auth_key=1711197004-13aee1c25a5148b7a66a72d88f2eb585-0-0d97c36febb30d9322a8abba542ad538" type="video/mp4">  
+    <source src="https://private-user-images.githubusercontent.com/158807652/306288127-c3c98b79-954a-4363-b2da-5ba42924bcd9.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTExOTc2MTMsIm5iZiI6MTcxMTE5NzMxMywicGF0aCI6Ii8xNTg4MDc2NTIvMzA2Mjg4MTI3LWMzYzk4Yjc5LTk1NGEtNDM2My1iMmRhLTViYTQyOTI0YmNkOS5tcDQ_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzIzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMyM1QxMjM1MTNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03NWJlYWY1NmQ2YjgxOTc2YzRhYTQ4MTFkYzcxZWUxODU5MTc1MGYxNDZjNmE2NjFkYmNlNGVmZjIxZTQ3MzljJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.7dqULPKyIW1dStVNeH9UvJqQm6GE6KKVosqIdtrSZjI" type="video/mp4">  
+    您的浏览器不支持Video标签 
+  </video>  
+  
+  <div class="custom-progress-bar" id="customProgressBar">  
+    <div class="fill"></div>  
+  </div>  
+</div>  
+  
+<script>  
+var video = document.getElementById('myVideo');  
+var progressBar = document.getElementById('customProgressBar');  
+var fill = document.querySelector('.custom-progress-bar .fill');  
+  
+// 监听mousedown事件开始拖动  
+progressBar.addEventListener('mousedown', function(e) {  
+  // 防止默认行为  
+  e.preventDefault();  
+  
+  // 开始拖动  
+  document.addEventListener('mousemove', onDrag);  
+  document.addEventListener('mouseup', onDragEnd);  
+  
+  // 获取初始点击位置  
+  var startX = e.pageX - progressBar.offsetLeft;  
+});  
+  
+function onDrag(e) {  
+  // 计算新的进度位置  
+  var newPercent = (e.pageX - progressBar.offsetLeft) / progressBar.offsetWidth;  
+  newPercent = Math.min(Math.max(0, newPercent), 1); // 限制在0到1之间  
+  
+  // 更新视频播放位置  
+  video.currentTime = video.duration * newPercent;  
+  
+  // 更新进度条宽度  
+  fill.style.width = (newPercent * 100) + '%';  
+}  
+  
+function onDragEnd() {  
+  // 停止拖动  
+  document.removeEventListener('mousemove', onDrag);  
+  document.removeEventListener('mouseup', onDragEnd);  
+}  
+  
+// 视频加载元数据后初始化进度条  
+video.addEventListener('loadedmetadata', function() {  
+  // 设置初始进度  
+  updateProgressBar();  
+});  
+  
+// 更新进度条  
+function updateProgressBar() {  
+  var percent = (video.currentTime / video.duration) * 100;  
+  fill.style.width = percent + '%';  
+}  
+  
+// 监听视频播放过程中的时间更新  
+video.addEventListener('timeupdate', updateProgressBar);  
+</script>  
+  
+</body>  
+</html>

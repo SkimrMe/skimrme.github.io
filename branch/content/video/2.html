@@ -1,0 +1,119 @@
+<!--每个人都想成为机器人-->
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+<meta charset="UTF-8">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<title>每个人都想成为机器人</title>  
+<style>  
+  /* 视频播放器容器样式 */  
+  .video-container {  
+    position: relative;  
+    width: 640px;  
+  }  
+  
+  /* 自定义进度条容器样式 */  
+  .custom-progress-bar {  
+    position: absolute;  
+    bottom: 10px;  
+    left: 0;  
+    width: 100%;  
+    height: 10px;  
+    background: #444;  
+    cursor: pointer;  
+  }  
+  
+  /* 自定义进度条填充样式 */  
+  .custom-progress-bar .fill {  
+    position: absolute;  
+    top: 0;  
+    left: 0;  
+    height: 100%;  
+    width: 0;  
+    background: #f00;  
+    transition: width .2s; /* 平滑过渡效果 */  
+  }  
+  
+  /* 隐藏默认的浏览器进度条 */  
+  video::-webkit-media-controls-timeline {  
+    display: none;  
+  }  
+</style>  
+</head>  
+<body> 
+
+
+<!--标题部分-->
+<h1>Everybody wants to be a ROBOT(每个人都想成为机器人)</h1>
+<!--简介部分-->
+<a href="https://www.nicovideo.jp">n站</a>转载<br>
+<a href="https://www.nicovideo.jp/watch/sm1234">sm1234</a><br>
+原作者网站： <a href="http://www.jet-daisuke.com">http://www.jet-daisuke.com/</a><br>
+<!--简介部分-->
+<br>
+<br> 
+<div class="video-container">  
+  <video id="myVideo" width="640" height="360" controls>  
+    <source src="https://dust-laden.mfuns.net/user_files/57467/publish/video/43025279_1680397059.mp4" type="video/mp4">  
+    Your browser does not support the video tag.  
+  </video>  
+  
+  <div class="custom-progress-bar" id="customProgressBar">  
+    <div class="fill"></div>  
+  </div>  
+</div>  
+  
+<script>  
+var video = document.getElementById('myVideo');  
+var progressBar = document.getElementById('customProgressBar');  
+var fill = document.querySelector('.custom-progress-bar .fill');  
+  
+// 监听mousedown事件开始拖动  
+progressBar.addEventListener('mousedown', function(e) {  
+  // 防止默认行为  
+  e.preventDefault();  
+  
+  // 开始拖动  
+  document.addEventListener('mousemove', onDrag);  
+  document.addEventListener('mouseup', onDragEnd);  
+  
+  // 获取初始点击位置  
+  var startX = e.pageX - progressBar.offsetLeft;  
+});  
+  
+function onDrag(e) {  
+  // 计算新的进度位置  
+  var newPercent = (e.pageX - progressBar.offsetLeft) / progressBar.offsetWidth;  
+  newPercent = Math.min(Math.max(0, newPercent), 1); // 限制在0到1之间  
+  
+  // 更新视频播放位置  
+  video.currentTime = video.duration * newPercent;  
+  
+  // 更新进度条宽度  
+  fill.style.width = (newPercent * 100) + '%';  
+}  
+  
+function onDragEnd() {  
+  // 停止拖动  
+  document.removeEventListener('mousemove', onDrag);  
+  document.removeEventListener('mouseup', onDragEnd);  
+}  
+  
+// 视频加载元数据后初始化进度条  
+video.addEventListener('loadedmetadata', function() {  
+  // 设置初始进度  
+  updateProgressBar();  
+});  
+  
+// 更新进度条  
+function updateProgressBar() {  
+  var percent = (video.currentTime / video.duration) * 100;  
+  fill.style.width = percent + '%';  
+}  
+  
+// 监听视频播放过程中的时间更新  
+video.addEventListener('timeupdate', updateProgressBar);  
+</script>   
+  
+</body>  
+</html>
